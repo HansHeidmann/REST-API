@@ -1,0 +1,37 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "CRUD API using Node.js and Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansHeidmann/REST-API.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "api",
+    "crud",
+    "rest",
+    "javascript",
+    "js"
+  ],
+  "author": "Hans Heidmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansHeidmann/REST-API/issues"
+  },
+  "homepage": "https://github.com/HansHeidmann/REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
